@@ -8,7 +8,7 @@ modelPath = "/home/defaultpi/attire-detector/ITPAttire.eim"
 
 # --- GATEKEEPING CONFIGURATION ---
 # Replace with the exact label strings Linus used in Edge Impulse
-REQUIRED_ATTIRE = {"lab_coat", "safety_glasses"}
+REQUIRED_ATTIRE = {"covered top", "pants"}
 CONFIDENCE_THRESHOLD = 0.60  # 60% confidence required to count a detection
 
 # --- HARDWARE CONFIGURATION ---
